@@ -1,32 +1,49 @@
-
-<!doctype html>
 <html lang="en-us">
+        <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+           
+    <title>Bootstrap Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <!-- Bootstrap CSS Google Fonts and Style.css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Playfair+Display" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+    
+    <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+          </ul>
+
+            </head>
 
 <body>
+  <!-- Start of Header and Navigation bar -->
+  <nav id= "navheader">
+      <div class="headercontainer">
+          <a href="contact.html" class="contactlink" style="text-decoration:none;">Contact</a>
+          <a href="portfolio.html" class="portfoliolink" style="text-decoration:none;">Portfolio</a>
+          <a href="index.html" class="aboutlink" style="text-decoration:none;">About</a>
+              <header>
+                  <h1 id="name">Jay Guzman</h1>
+              </header>
+      </div>
+  </nav>
+  <!-- End of Header and Navigation bar -->
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <br>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
+  <!-- Start of Content Container -->
+  <div class="container">
+      <!-- Start of About me Box -->
+      <div class="content_box">
+          <section>
+              <h2>About Me</h2>
 
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+      <img id="portfolio_image" src="https://raw.githubusercontent.com/janellguzman/Basic-Portfolio/master/assets/images/profile_pic.jpg" alt="HTML5 Icon" style="width:200px;height:200px;">
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
@@ -38,11 +55,25 @@
 
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
-</body>
+     <!-- Start of Connect With Me Box -->
+     <aside id="connect_icons_box">
+        <h2>Connect with Me</h2>
+              <a href="https://github.com/janellguzman" class="github_imagelink">
+              <img src="https://raw.githubusercontent.com/janellguzman/Basic-Portfolio/master/assets/images/github_icon.png" alt="HTML5 Icon" style="width:65px;height:65px;">
+              </a>
+              <a href="https://www.linkedin.com/in/janell-guzman/" class="linkedin_imagelink">
+              <img src="https://raw.githubusercontent.com/janellguzman/Basic-Portfolio/master/assets/images/linkedin_icon.png" alt="HTML5 Icon" style="width:65px;height:65px;">
+              </a>
+              <a href="https://stackoverflow.com/users/9353115/j-guzman?tab=profile" class="stackoverflow_imagelink">
+              <img src="https://raw.githubusercontent.com/janellguzman/Basic-Portfolio/master/assets/images/stackoverflow_icon.png" alt="HTML5 Icon" style="width:65px;height:65px;">
+    </aside>
 
+</div>
+
+<!-- End of Content Container -->  
+<footer id="footer">
+    <h4>© Copyright 2018 Jay Guzman</h4>
+</footer>
+
+</body>
 </html>
